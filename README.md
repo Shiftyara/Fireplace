@@ -168,4 +168,11 @@ game.Players.PlayerAdded:Connect(function(Player)
 end)
 ```
 
-Fireplace was developed by `Shif
+### Configuration
+#### `Debug`
+```lua
+Fireplace.LeaveDumpTrace = false (Default) | true --// When a burner has been melted, print!
+Fireplace.ForgetBinsOnCleared = false (Default) | true --// When a burner has been melted, forget the whole burner from memory (no longer works!)
+```
+
+Fireplace was developed by `Shifty#1619`
